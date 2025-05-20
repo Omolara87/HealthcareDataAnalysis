@@ -1,0 +1,501 @@
+Patient_ID,Gender,DOB,Condition,Admission_Date,Discharge_Date,Hospital_ID,Readmitted,Outcome
+P0001,Male,1989-11-30,Diabetes,2023-04-07,2023-04-09,4,0,Improved
+P0002,Female,1966-08-16,Heart Disease,2023-12-30,2024-01-13,3,1,Deteriorated
+P0003,Female,1987-08-26,Fracture,2023-12-08,2023-12-20,2,0,Recovered
+P0004,Male,2003-10-31,Asthma,2023-10-08,2023-10-14,3,0,Improved
+P0005,Female,1942-07-30,Asthma,2023-01-03,2023-01-14,5,1,Deteriorated
+P0006,Female,2008-07-07,Diabetes,2023-04-19,2023-04-24,4,1,Recovered
+P0007,Female,1971-09-25,Diabetes,2023-07-23,2023-07-31,4,0,Improved
+P0008,Female,2000-03-20,Hypertension,2023-09-01,2023-09-08,3,0,Recovered
+P0009,Female,1970-12-26,Fracture,2023-10-12,2023-10-16,3,0,Improved
+P0010,Female,1964-08-30,Fracture,2023-12-18,2023-12-21,2,0,Recovered
+P0011,Female,1990-08-17,Diabetes,2023-03-07,2023-03-11,4,0,Deteriorated
+P0012,Male,1980-03-03,Diabetes,2023-07-30,2023-08-06,4,0,Recovered
+P0013,Male,1996-07-08,Diabetes,2023-01-22,2023-01-28,4,0,Unchanged
+P0014,Female,1972-05-26,Hypertension,2023-04-22,2023-04-30,1,0,Recovered
+P0015,Male,1987-06-12,Hypertension,2023-07-17,2023-07-31,4,0,Deteriorated
+P0016,Male,1962-12-24,Hypertension,2023-10-17,2023-10-29,4,0,Unchanged
+P0017,Male,2005-04-21,Fracture,2023-04-17,2023-04-25,2,0,Deteriorated
+P0018,Male,1989-10-19,Hypertension,2023-05-11,2023-05-18,2,0,Deteriorated
+P0019,Male,1981-09-07,Fracture,2023-01-28,2023-02-04,5,0,Improved
+P0020,Female,1945-02-05,Diabetes,2023-08-21,2023-08-27,2,0,Deteriorated
+P0021,Male,1963-12-08,Fracture,2023-05-28,2023-06-09,4,0,Deteriorated
+P0022,Female,1950-04-09,Asthma,2023-11-24,2023-12-03,4,1,Deteriorated
+P0023,Female,1967-01-03,Heart Disease,2023-10-13,2023-10-19,4,1,Unchanged
+P0024,Male,1990-06-11,Diabetes,2023-08-14,2023-08-18,2,0,Recovered
+P0025,Male,1942-06-22,Asthma,2023-11-01,2023-11-09,3,0,Unchanged
+P0026,Female,1982-01-12,Heart Disease,2023-12-03,2023-12-17,1,1,Deteriorated
+P0027,Female,2008-08-31,Asthma,2023-07-04,2023-07-07,5,0,Deteriorated
+P0028,Female,2006-10-20,Heart Disease,2023-11-16,2023-11-24,3,0,Deteriorated
+P0029,Female,1979-02-22,Heart Disease,2023-11-04,2023-11-07,1,1,Unchanged
+P0030,Male,1956-02-22,Hypertension,2023-09-08,2023-09-18,2,1,Deteriorated
+P0031,Female,1972-11-11,Asthma,2023-03-03,2023-03-09,5,0,Improved
+P0032,Male,1961-09-29,Asthma,2023-04-17,2023-04-18,5,0,Unchanged
+P0033,Female,2005-01-20,Diabetes,2023-10-01,2023-10-04,2,0,Improved
+P0034,Male,1966-06-24,Fracture,2023-02-15,2023-02-24,3,0,Improved
+P0035,Female,1955-04-25,Asthma,2023-03-04,2023-03-06,1,0,Unchanged
+P0036,Female,1984-09-08,Asthma,2023-01-23,2023-02-01,4,0,Deteriorated
+P0037,Male,1993-06-03,Diabetes,2023-08-14,2023-08-17,4,0,Recovered
+P0038,Female,1959-03-28,Diabetes,2023-04-13,2023-04-26,1,0,Deteriorated
+P0039,Female,1950-06-18,Hypertension,2023-05-18,2023-05-27,4,0,Improved
+P0040,Male,1992-04-12,Fracture,2023-09-19,2023-09-26,3,0,Unchanged
+P0041,Male,1963-03-13,Fracture,2023-11-29,2023-12-13,2,1,Improved
+P0042,Female,1942-10-25,Hypertension,2023-03-03,2023-03-12,4,1,Unchanged
+P0043,Male,1947-04-14,Diabetes,2023-06-20,2023-07-03,2,0,Deteriorated
+P0044,Female,1946-06-11,Diabetes,2023-09-05,2023-09-09,4,0,Deteriorated
+P0045,Female,2000-05-11,Diabetes,2023-11-12,2023-11-25,4,0,Unchanged
+P0046,Female,1961-03-05,Asthma,2023-10-01,2023-10-13,5,1,Deteriorated
+P0047,Female,2007-09-15,Fracture,2023-07-16,2023-07-23,4,0,Deteriorated
+P0048,Female,2005-06-13,Fracture,2023-11-13,2023-11-18,5,0,Recovered
+P0049,Male,1969-12-11,Heart Disease,2023-06-03,2023-06-04,1,0,Unchanged
+P0050,Female,1974-10-04,Heart Disease,2023-05-23,2023-06-04,4,1,Improved
+P0051,Male,1942-11-19,Asthma,2023-11-14,2023-11-21,4,0,Deteriorated
+P0052,Female,1993-01-03,Asthma,2023-07-01,2023-07-08,4,1,Improved
+P0053,Female,1999-11-22,Fracture,2023-03-23,2023-03-27,5,0,Recovered
+P0054,Female,1950-08-29,Heart Disease,2023-01-30,2023-02-04,4,0,Deteriorated
+P0055,Female,1947-05-03,Hypertension,2023-07-18,2023-07-27,3,0,Improved
+P0056,Male,1970-08-18,Diabetes,2023-01-29,2023-02-05,1,0,Recovered
+P0057,Female,1953-07-21,Fracture,2023-07-22,2023-07-23,2,0,Unchanged
+P0058,Male,1947-04-19,Hypertension,2023-05-14,2023-05-15,2,0,Unchanged
+P0059,Male,1993-03-24,Asthma,2023-12-07,2023-12-11,5,0,Unchanged
+P0060,Female,1958-09-21,Diabetes,2023-06-28,2023-07-10,1,0,Recovered
+P0061,Female,1950-11-12,Asthma,2023-03-28,2023-04-03,1,0,Deteriorated
+P0062,Male,1942-05-01,Heart Disease,2023-07-01,2023-07-15,2,0,Improved
+P0063,Female,1953-10-07,Hypertension,2023-09-24,2023-10-02,5,0,Improved
+P0064,Male,1995-03-30,Diabetes,2023-02-13,2023-02-25,3,1,Unchanged
+P0065,Female,2004-11-20,Diabetes,2023-11-12,2023-11-13,1,0,Improved
+P0066,Male,2006-11-27,Asthma,2023-05-23,2023-06-02,2,0,Recovered
+P0067,Male,1959-08-01,Fracture,2023-05-01,2023-05-11,3,1,Deteriorated
+P0068,Male,1993-12-23,Hypertension,2023-02-26,2023-03-10,3,0,Deteriorated
+P0069,Male,2007-08-19,Diabetes,2023-12-27,2024-01-08,3,0,Recovered
+P0070,Male,2001-02-03,Diabetes,2023-05-24,2023-06-02,4,0,Deteriorated
+P0071,Female,1964-01-04,Heart Disease,2023-04-30,2023-05-01,3,0,Recovered
+P0072,Female,2000-05-01,Hypertension,2023-11-05,2023-11-07,3,0,Recovered
+P0073,Male,1942-03-15,Hypertension,2023-10-16,2023-10-26,2,0,Improved
+P0074,Male,1954-11-27,Diabetes,2023-03-29,2023-04-03,5,0,Recovered
+P0075,Male,1993-02-19,Hypertension,2023-01-30,2023-01-31,4,1,Improved
+P0076,Female,1985-03-01,Hypertension,2023-02-21,2023-02-24,2,0,Deteriorated
+P0077,Female,1945-05-21,Diabetes,2023-09-18,2023-09-23,2,0,Unchanged
+P0078,Male,1986-08-21,Diabetes,2023-07-12,2023-07-21,3,1,Deteriorated
+P0079,Female,1951-11-12,Asthma,2023-06-04,2023-06-07,4,0,Improved
+P0080,Male,1943-10-16,Asthma,2023-12-11,2023-12-14,5,1,Recovered
+P0081,Male,1976-05-09,Asthma,2023-10-01,2023-10-13,5,0,Deteriorated
+P0082,Female,1977-12-19,Asthma,2023-11-09,2023-11-17,2,0,Improved
+P0083,Male,1940-03-04,Hypertension,2023-06-10,2023-06-17,4,1,Deteriorated
+P0084,Female,1950-12-13,Heart Disease,2023-08-30,2023-09-03,2,0,Unchanged
+P0085,Female,1950-12-02,Diabetes,2023-12-04,2023-12-15,2,0,Unchanged
+P0086,Female,1991-09-16,Diabetes,2023-03-14,2023-03-17,5,0,Deteriorated
+P0087,Female,1994-06-26,Fracture,2023-03-15,2023-03-22,5,1,Unchanged
+P0088,Female,1975-04-18,Heart Disease,2023-08-17,2023-08-23,2,0,Improved
+P0089,Female,1992-03-03,Heart Disease,2023-12-17,2023-12-22,5,0,Recovered
+P0090,Male,1977-08-05,Diabetes,2023-11-26,2023-12-07,5,0,Recovered
+P0091,Female,1946-07-15,Heart Disease,2023-12-31,2024-01-04,3,0,Deteriorated
+P0092,Female,1999-08-17,Fracture,2023-06-26,2023-07-08,3,0,Deteriorated
+P0093,Male,1949-06-03,Hypertension,2023-08-16,2023-08-20,1,0,Improved
+P0094,Male,1961-12-06,Asthma,2023-09-28,2023-10-08,1,1,Recovered
+P0095,Female,1977-01-23,Fracture,2023-03-03,2023-03-16,2,0,Recovered
+P0096,Male,1990-03-26,Asthma,2023-12-10,2023-12-18,2,0,Improved
+P0097,Male,1955-10-12,Diabetes,2023-11-09,2023-11-14,2,1,Unchanged
+P0098,Female,1992-12-13,Hypertension,2023-06-21,2023-06-26,2,1,Recovered
+P0099,Female,1960-04-01,Fracture,2023-04-08,2023-04-14,5,1,Deteriorated
+P0100,Male,1950-09-03,Heart Disease,2023-06-28,2023-07-08,1,0,Unchanged
+P0101,Female,1995-09-22,Hypertension,2023-10-30,2023-11-04,2,0,Recovered
+P0102,Male,1980-04-05,Fracture,2023-04-19,2023-04-21,3,0,Unchanged
+P0103,Male,2004-10-31,Hypertension,2023-11-25,2023-11-27,5,0,Unchanged
+P0104,Female,1998-04-13,Diabetes,2023-05-01,2023-05-12,1,1,Recovered
+P0105,Male,2009-03-13,Heart Disease,2023-01-03,2023-01-11,5,1,Recovered
+P0106,Male,1985-08-28,Asthma,2023-10-01,2023-10-11,4,0,Improved
+P0107,Male,2009-07-30,Asthma,2023-05-24,2023-05-25,2,0,Deteriorated
+P0108,Female,1979-08-14,Asthma,2023-07-15,2023-07-16,3,0,Recovered
+P0109,Female,1996-01-30,Fracture,2023-12-08,2023-12-22,1,0,Recovered
+P0110,Male,1954-08-21,Hypertension,2023-08-31,2023-09-06,5,1,Deteriorated
+P0111,Female,2004-02-11,Heart Disease,2023-04-04,2023-04-17,1,1,Improved
+P0112,Male,1953-01-28,Heart Disease,2023-12-24,2024-01-01,4,0,Unchanged
+P0113,Male,1977-08-03,Fracture,2023-05-01,2023-05-02,3,0,Deteriorated
+P0114,Male,2005-04-05,Heart Disease,2023-05-31,2023-06-06,5,0,Improved
+P0115,Male,2003-12-20,Heart Disease,2023-07-30,2023-08-13,4,0,Unchanged
+P0116,Male,1951-04-15,Hypertension,2023-01-08,2023-01-11,3,0,Deteriorated
+P0117,Female,1942-01-06,Hypertension,2023-11-08,2023-11-09,2,0,Improved
+P0118,Male,1952-03-19,Hypertension,2023-06-27,2023-07-07,1,1,Recovered
+P0119,Female,1990-04-03,Fracture,2023-01-27,2023-02-04,4,1,Recovered
+P0120,Male,1971-05-23,Fracture,2023-09-06,2023-09-20,1,0,Unchanged
+P0121,Female,1977-08-23,Fracture,2023-05-13,2023-05-19,1,0,Recovered
+P0122,Female,1962-12-20,Heart Disease,2023-04-20,2023-04-21,4,0,Unchanged
+P0123,Female,1976-03-09,Asthma,2023-03-31,2023-04-04,4,1,Improved
+P0124,Female,1944-07-29,Heart Disease,2023-01-27,2023-02-02,5,0,Recovered
+P0125,Female,1941-08-29,Hypertension,2023-07-08,2023-07-19,3,0,Unchanged
+P0126,Male,1990-08-30,Asthma,2023-09-01,2023-09-14,2,1,Deteriorated
+P0127,Female,1974-04-26,Diabetes,2023-04-22,2023-04-26,3,0,Improved
+P0128,Female,2004-01-05,Asthma,2023-03-25,2023-03-28,2,0,Recovered
+P0129,Female,2010-06-17,Hypertension,2023-03-20,2023-03-31,2,0,Recovered
+P0130,Female,1989-08-06,Hypertension,2023-05-27,2023-05-30,5,0,Unchanged
+P0131,Male,1983-05-10,Hypertension,2023-05-02,2023-05-03,3,0,Deteriorated
+P0132,Female,1961-04-28,Hypertension,2023-04-07,2023-04-16,4,0,Recovered
+P0133,Female,1994-02-25,Diabetes,2023-12-14,2023-12-26,1,0,Unchanged
+P0134,Male,1957-02-06,Asthma,2023-10-20,2023-10-24,5,0,Recovered
+P0135,Male,2006-10-25,Diabetes,2023-12-25,2024-01-04,5,0,Improved
+P0136,Female,2008-11-30,Heart Disease,2023-05-27,2023-06-06,5,0,Recovered
+P0137,Male,1954-08-18,Asthma,2023-07-25,2023-08-04,4,0,Unchanged
+P0138,Male,1946-04-23,Heart Disease,2023-02-21,2023-02-28,1,0,Unchanged
+P0139,Male,1972-08-09,Heart Disease,2023-02-19,2023-03-02,2,1,Unchanged
+P0140,Male,1949-05-12,Heart Disease,2023-02-01,2023-02-06,4,0,Deteriorated
+P0141,Female,1943-02-05,Hypertension,2023-05-27,2023-06-06,3,0,Deteriorated
+P0142,Female,1979-02-06,Asthma,2023-09-26,2023-09-30,3,0,Improved
+P0143,Male,1990-05-05,Fracture,2023-04-22,2023-04-27,4,1,Recovered
+P0144,Male,1967-12-18,Asthma,2023-08-20,2023-08-22,5,0,Deteriorated
+P0145,Female,2005-10-14,Hypertension,2023-12-21,2023-12-22,4,1,Recovered
+P0146,Male,1977-07-09,Asthma,2023-11-24,2023-12-08,1,0,Recovered
+P0147,Female,1989-07-13,Hypertension,2023-04-05,2023-04-15,2,0,Unchanged
+P0148,Female,1966-10-05,Asthma,2023-10-29,2023-10-31,2,0,Unchanged
+P0149,Female,1962-06-06,Asthma,2023-07-28,2023-08-08,2,0,Recovered
+P0150,Female,1960-08-11,Heart Disease,2023-03-07,2023-03-18,2,0,Unchanged
+P0151,Male,1941-11-22,Diabetes,2023-03-30,2023-04-01,5,0,Recovered
+P0152,Male,1977-12-14,Asthma,2023-09-30,2023-10-08,3,1,Recovered
+P0153,Male,1991-10-31,Fracture,2023-10-29,2023-11-01,3,1,Unchanged
+P0154,Female,1947-05-07,Diabetes,2023-08-08,2023-08-16,4,0,Deteriorated
+P0155,Male,2008-03-23,Fracture,2023-06-15,2023-06-16,2,1,Recovered
+P0156,Female,1982-04-26,Asthma,2023-07-24,2023-08-06,3,0,Deteriorated
+P0157,Female,1959-02-25,Hypertension,2023-01-05,2023-01-18,1,0,Deteriorated
+P0158,Female,2003-08-24,Asthma,2023-06-24,2023-07-05,4,0,Unchanged
+P0159,Male,1956-11-28,Heart Disease,2023-02-10,2023-02-12,5,0,Deteriorated
+P0160,Female,1958-01-24,Hypertension,2023-08-30,2023-09-08,3,0,Deteriorated
+P0161,Male,1956-05-21,Fracture,2023-12-01,2023-12-02,2,0,Deteriorated
+P0162,Male,1952-05-21,Asthma,2023-12-25,2024-01-06,5,0,Deteriorated
+P0163,Female,1942-04-07,Asthma,2023-01-05,2023-01-16,1,0,Recovered
+P0164,Male,1967-06-29,Hypertension,2023-08-03,2023-08-15,1,0,Unchanged
+P0165,Female,2003-07-27,Asthma,2023-09-29,2023-10-10,1,1,Unchanged
+P0166,Female,1968-07-05,Diabetes,2023-01-30,2023-02-03,5,0,Unchanged
+P0167,Male,1948-10-09,Fracture,2023-06-20,2023-06-26,3,0,Recovered
+P0168,Male,1940-04-03,Asthma,2023-06-03,2023-06-05,3,0,Recovered
+P0169,Female,1983-01-02,Asthma,2023-07-23,2023-08-03,2,1,Improved
+P0170,Male,1977-07-18,Hypertension,2023-08-08,2023-08-21,5,0,Recovered
+P0171,Female,1946-10-03,Heart Disease,2023-01-23,2023-01-26,3,0,Recovered
+P0172,Male,1950-05-06,Fracture,2023-04-21,2023-05-04,4,1,Deteriorated
+P0173,Female,1941-02-08,Diabetes,2023-10-27,2023-11-08,2,0,Recovered
+P0174,Male,1953-10-16,Diabetes,2023-07-03,2023-07-15,3,0,Improved
+P0175,Female,2010-08-06,Hypertension,2023-09-11,2023-09-13,4,1,Improved
+P0176,Male,1976-04-24,Diabetes,2023-05-11,2023-05-16,2,0,Deteriorated
+P0177,Female,1941-01-10,Heart Disease,2023-06-03,2023-06-11,1,1,Recovered
+P0178,Male,1983-11-27,Asthma,2023-05-06,2023-05-16,1,0,Recovered
+P0179,Male,1995-08-29,Fracture,2023-05-01,2023-05-10,4,0,Unchanged
+P0180,Male,1969-12-16,Asthma,2023-05-09,2023-05-14,1,0,Recovered
+P0181,Female,1986-03-21,Hypertension,2023-12-18,2023-12-29,4,0,Deteriorated
+P0182,Male,2005-11-05,Asthma,2023-07-04,2023-07-09,2,1,Unchanged
+P0183,Female,2005-01-16,Heart Disease,2023-04-21,2023-05-03,3,0,Recovered
+P0184,Male,1966-05-14,Diabetes,2023-07-18,2023-07-25,2,0,Unchanged
+P0185,Female,1964-06-13,Fracture,2023-03-28,2023-04-03,4,1,Improved
+P0186,Male,1952-05-12,Heart Disease,2023-07-10,2023-07-24,5,0,Deteriorated
+P0187,Male,1958-06-04,Hypertension,2023-09-13,2023-09-15,5,0,Improved
+P0188,Male,1949-01-03,Fracture,2023-02-16,2023-02-17,4,0,Recovered
+P0189,Male,1967-11-02,Asthma,2023-09-09,2023-09-11,1,0,Improved
+P0190,Male,1944-04-11,Hypertension,2023-03-31,2023-04-01,4,0,Improved
+P0191,Female,2008-07-18,Asthma,2023-07-25,2023-08-08,3,1,Unchanged
+P0192,Male,1993-05-29,Heart Disease,2023-05-21,2023-05-25,2,0,Deteriorated
+P0193,Male,1989-11-21,Heart Disease,2023-11-15,2023-11-21,4,1,Deteriorated
+P0194,Female,1984-01-10,Hypertension,2023-10-21,2023-10-27,3,0,Improved
+P0195,Male,2003-11-29,Diabetes,2023-06-09,2023-06-16,5,0,Recovered
+P0196,Male,1979-07-15,Hypertension,2023-11-12,2023-11-22,4,0,Recovered
+P0197,Male,1952-12-19,Diabetes,2023-12-06,2023-12-09,1,0,Improved
+P0198,Female,1949-06-28,Hypertension,2023-10-24,2023-11-04,4,0,Recovered
+P0199,Male,1995-12-05,Hypertension,2023-12-27,2024-01-06,5,0,Improved
+P0200,Male,2001-05-13,Fracture,2023-03-31,2023-04-06,3,0,Deteriorated
+P0201,Female,1952-11-15,Diabetes,2023-10-13,2023-10-21,4,0,Recovered
+P0202,Male,1955-06-09,Diabetes,2023-10-12,2023-10-18,4,0,Unchanged
+P0203,Female,1961-07-02,Heart Disease,2023-02-22,2023-03-04,1,0,Improved
+P0204,Male,1982-09-22,Asthma,2023-10-26,2023-11-04,4,0,Recovered
+P0205,Male,1955-02-25,Heart Disease,2023-05-19,2023-05-21,2,0,Unchanged
+P0206,Female,1977-11-21,Diabetes,2023-08-01,2023-08-15,4,0,Deteriorated
+P0207,Female,1979-09-18,Fracture,2023-10-01,2023-10-07,3,0,Improved
+P0208,Male,1957-04-11,Diabetes,2023-05-09,2023-05-18,2,0,Recovered
+P0209,Male,1977-04-17,Asthma,2023-06-17,2023-06-27,1,1,Deteriorated
+P0210,Male,1948-03-06,Asthma,2023-02-08,2023-02-22,3,0,Improved
+P0211,Female,1997-09-12,Hypertension,2023-07-13,2023-07-15,1,0,Unchanged
+P0212,Female,1949-01-05,Fracture,2023-02-18,2023-02-23,4,1,Improved
+P0213,Male,1992-09-29,Heart Disease,2023-08-03,2023-08-04,4,1,Deteriorated
+P0214,Male,1955-11-19,Fracture,2023-02-15,2023-02-27,4,0,Unchanged
+P0215,Male,2004-10-17,Hypertension,2023-05-03,2023-05-06,5,0,Unchanged
+P0216,Male,1970-05-23,Diabetes,2023-06-27,2023-06-28,5,0,Deteriorated
+P0217,Male,1963-05-06,Asthma,2023-01-23,2023-02-02,5,0,Recovered
+P0218,Female,2009-04-25,Diabetes,2023-08-20,2023-09-03,2,1,Unchanged
+P0219,Male,2010-09-09,Diabetes,2023-12-15,2023-12-23,5,0,Unchanged
+P0220,Female,1962-09-14,Hypertension,2023-11-18,2023-11-29,4,1,Recovered
+P0221,Male,1991-08-08,Heart Disease,2023-12-08,2023-12-18,4,0,Unchanged
+P0222,Male,1968-08-22,Diabetes,2023-11-19,2023-11-23,1,0,Recovered
+P0223,Male,1961-01-06,Asthma,2023-02-02,2023-02-11,3,0,Deteriorated
+P0224,Female,2007-10-06,Asthma,2023-11-23,2023-12-01,3,0,Deteriorated
+P0225,Female,2008-12-10,Heart Disease,2023-04-13,2023-04-27,2,0,Recovered
+P0226,Female,1961-05-04,Heart Disease,2023-06-01,2023-06-09,3,1,Unchanged
+P0227,Male,1995-02-10,Hypertension,2023-05-03,2023-05-17,2,0,Improved
+P0228,Male,1953-05-08,Fracture,2023-03-24,2023-04-02,1,0,Unchanged
+P0229,Female,1995-04-14,Asthma,2023-04-13,2023-04-15,4,0,Improved
+P0230,Female,1967-04-10,Diabetes,2023-03-31,2023-04-10,4,0,Unchanged
+P0231,Female,1964-10-01,Hypertension,2023-08-27,2023-09-05,2,0,Deteriorated
+P0232,Female,2010-04-09,Heart Disease,2023-03-21,2023-03-31,5,0,Recovered
+P0233,Male,2000-02-15,Diabetes,2023-04-24,2023-04-25,1,0,Unchanged
+P0234,Male,1945-12-13,Fracture,2023-06-05,2023-06-18,4,1,Recovered
+P0235,Male,1965-08-11,Heart Disease,2023-12-08,2023-12-20,4,0,Improved
+P0236,Female,1997-10-12,Fracture,2023-01-02,2023-01-10,1,0,Unchanged
+P0237,Female,1958-10-27,Fracture,2023-09-23,2023-10-01,2,0,Improved
+P0238,Male,1988-02-01,Asthma,2023-04-26,2023-05-03,5,0,Unchanged
+P0239,Female,2009-03-11,Asthma,2023-12-04,2023-12-10,2,0,Recovered
+P0240,Male,2004-10-23,Fracture,2023-03-06,2023-03-15,1,1,Recovered
+P0241,Male,1991-09-10,Asthma,2023-09-05,2023-09-11,3,0,Unchanged
+P0242,Female,1947-07-20,Heart Disease,2023-11-20,2023-12-02,2,1,Improved
+P0243,Male,1973-03-08,Fracture,2023-07-09,2023-07-21,3,0,Unchanged
+P0244,Female,2005-04-11,Fracture,2023-02-24,2023-03-01,1,0,Unchanged
+P0245,Female,1951-01-30,Hypertension,2023-10-20,2023-10-21,3,0,Unchanged
+P0246,Female,1990-06-22,Hypertension,2023-05-07,2023-05-17,4,1,Improved
+P0247,Female,2003-08-06,Hypertension,2023-01-20,2023-01-22,3,0,Deteriorated
+P0248,Male,1993-12-02,Hypertension,2023-07-17,2023-07-26,5,0,Unchanged
+P0249,Male,1961-06-24,Diabetes,2023-08-01,2023-08-02,5,0,Deteriorated
+P0250,Male,1989-08-22,Hypertension,2023-05-06,2023-05-10,1,0,Recovered
+P0251,Female,1970-05-19,Heart Disease,2023-07-10,2023-07-18,5,0,Unchanged
+P0252,Female,1961-06-07,Diabetes,2023-07-16,2023-07-20,3,0,Unchanged
+P0253,Female,2009-10-03,Heart Disease,2023-06-19,2023-06-27,4,1,Recovered
+P0254,Male,1950-08-04,Hypertension,2023-07-28,2023-08-03,1,0,Deteriorated
+P0255,Female,1997-10-15,Fracture,2023-05-25,2023-06-05,2,1,Unchanged
+P0256,Female,1953-09-07,Diabetes,2023-07-05,2023-07-09,4,0,Improved
+P0257,Female,1953-07-01,Fracture,2023-05-14,2023-05-23,2,0,Deteriorated
+P0258,Female,1986-07-06,Heart Disease,2023-04-07,2023-04-18,1,0,Deteriorated
+P0259,Male,2007-03-10,Heart Disease,2023-10-06,2023-10-10,2,0,Unchanged
+P0260,Male,1950-02-03,Diabetes,2023-05-12,2023-05-14,4,0,Improved
+P0261,Female,2009-08-31,Heart Disease,2023-11-15,2023-11-19,5,0,Deteriorated
+P0262,Female,1994-04-22,Diabetes,2023-12-15,2023-12-27,1,0,Unchanged
+P0263,Male,1995-03-18,Heart Disease,2023-06-19,2023-06-23,5,0,Deteriorated
+P0264,Male,1976-09-29,Fracture,2023-11-27,2023-12-09,5,0,Unchanged
+P0265,Male,1966-02-18,Asthma,2023-04-13,2023-04-26,5,1,Unchanged
+P0266,Female,1940-04-10,Hypertension,2023-04-03,2023-04-04,4,0,Improved
+P0267,Female,1997-12-21,Hypertension,2023-04-06,2023-04-14,3,0,Recovered
+P0268,Male,1964-09-28,Asthma,2023-04-19,2023-04-22,5,0,Deteriorated
+P0269,Female,1956-07-12,Asthma,2023-04-02,2023-04-03,3,0,Deteriorated
+P0270,Female,2000-04-06,Diabetes,2023-11-02,2023-11-09,1,0,Deteriorated
+P0271,Female,2009-02-14,Heart Disease,2023-03-13,2023-03-20,2,0,Deteriorated
+P0272,Female,1994-11-22,Fracture,2023-12-25,2024-01-02,5,0,Deteriorated
+P0273,Female,1993-05-13,Hypertension,2023-02-28,2023-03-08,3,0,Deteriorated
+P0274,Male,2007-12-08,Asthma,2023-01-06,2023-01-18,1,1,Unchanged
+P0275,Male,1982-09-20,Asthma,2023-03-15,2023-03-17,4,0,Unchanged
+P0276,Male,1979-12-08,Asthma,2023-12-11,2023-12-14,1,1,Unchanged
+P0277,Female,2003-10-11,Heart Disease,2023-05-21,2023-06-04,4,0,Recovered
+P0278,Male,1966-01-01,Fracture,2023-08-21,2023-08-30,2,0,Deteriorated
+P0279,Female,1984-11-30,Asthma,2023-08-14,2023-08-20,2,0,Unchanged
+P0280,Male,2002-11-08,Fracture,2023-11-12,2023-11-14,3,0,Improved
+P0281,Female,1988-04-15,Hypertension,2023-07-26,2023-08-03,4,0,Deteriorated
+P0282,Female,1956-09-15,Diabetes,2023-01-16,2023-01-20,4,0,Deteriorated
+P0283,Male,2008-05-19,Diabetes,2023-01-05,2023-01-07,2,0,Recovered
+P0284,Male,2010-01-15,Hypertension,2023-06-30,2023-07-07,1,0,Improved
+P0285,Male,1948-09-26,Diabetes,2023-03-08,2023-03-17,1,1,Improved
+P0286,Female,1967-02-01,Asthma,2023-11-24,2023-11-27,3,0,Recovered
+P0287,Male,1962-01-28,Heart Disease,2023-11-25,2023-12-03,2,0,Recovered
+P0288,Male,1989-08-09,Diabetes,2023-09-19,2023-09-28,2,0,Unchanged
+P0289,Female,1957-11-27,Hypertension,2023-02-09,2023-02-19,5,0,Recovered
+P0290,Female,1949-05-11,Heart Disease,2023-12-02,2023-12-09,3,0,Deteriorated
+P0291,Female,1964-01-13,Hypertension,2023-12-02,2023-12-12,2,0,Improved
+P0292,Female,1998-09-03,Asthma,2023-10-25,2023-11-03,5,0,Unchanged
+P0293,Male,1959-11-03,Hypertension,2023-05-31,2023-06-14,4,0,Recovered
+P0294,Female,1964-09-13,Asthma,2023-08-06,2023-08-12,5,0,Improved
+P0295,Male,1993-08-19,Diabetes,2023-11-15,2023-11-16,2,0,Recovered
+P0296,Male,1983-08-02,Heart Disease,2023-10-13,2023-10-14,1,0,Unchanged
+P0297,Male,1999-05-05,Fracture,2023-09-23,2023-10-03,3,0,Deteriorated
+P0298,Male,1997-04-22,Heart Disease,2023-04-10,2023-04-15,4,0,Improved
+P0299,Female,1957-03-14,Fracture,2023-01-27,2023-02-03,1,0,Recovered
+P0300,Female,1998-02-19,Diabetes,2023-12-26,2023-12-27,3,0,Unchanged
+P0301,Female,1943-08-30,Hypertension,2023-09-13,2023-09-25,4,0,Deteriorated
+P0302,Male,1949-09-17,Asthma,2023-07-30,2023-08-09,4,0,Recovered
+P0303,Female,1977-05-23,Asthma,2023-03-14,2023-03-19,2,0,Deteriorated
+P0304,Male,1985-12-01,Asthma,2023-09-13,2023-09-16,5,1,Deteriorated
+P0305,Male,1954-05-12,Diabetes,2023-05-10,2023-05-23,1,0,Unchanged
+P0306,Female,1950-09-27,Diabetes,2023-12-22,2023-12-25,5,0,Improved
+P0307,Female,1943-05-06,Fracture,2023-04-25,2023-04-30,2,0,Improved
+P0308,Female,1978-05-11,Heart Disease,2023-08-30,2023-09-07,2,0,Recovered
+P0309,Female,1945-04-08,Heart Disease,2023-06-24,2023-06-26,1,1,Improved
+P0310,Female,2004-07-12,Hypertension,2023-11-08,2023-11-20,4,0,Recovered
+P0311,Female,1964-05-15,Fracture,2023-01-11,2023-01-21,3,0,Recovered
+P0312,Male,1963-08-27,Diabetes,2023-07-22,2023-08-04,4,0,Improved
+P0313,Male,1985-10-25,Diabetes,2023-10-08,2023-10-15,5,1,Recovered
+P0314,Female,1964-03-31,Asthma,2023-12-18,2023-12-23,1,0,Deteriorated
+P0315,Female,1995-01-11,Fracture,2023-02-13,2023-02-20,2,0,Recovered
+P0316,Female,1963-08-04,Fracture,2023-05-22,2023-06-02,4,1,Improved
+P0317,Female,1951-08-31,Diabetes,2023-02-25,2023-03-06,1,0,Deteriorated
+P0318,Female,2006-01-16,Fracture,2023-01-06,2023-01-13,3,0,Unchanged
+P0319,Female,1965-09-19,Asthma,2023-02-12,2023-02-22,2,0,Recovered
+P0320,Female,1949-08-12,Asthma,2023-04-14,2023-04-17,4,1,Recovered
+P0321,Female,1969-11-08,Diabetes,2023-02-19,2023-02-27,2,0,Recovered
+P0322,Female,1941-11-04,Diabetes,2023-12-24,2024-01-06,5,0,Improved
+P0323,Female,1945-04-22,Fracture,2023-12-25,2023-12-30,3,1,Deteriorated
+P0324,Male,2006-11-07,Fracture,2023-03-17,2023-03-18,3,0,Unchanged
+P0325,Male,1974-11-28,Heart Disease,2023-06-02,2023-06-04,3,0,Improved
+P0326,Male,2009-05-07,Fracture,2023-12-04,2023-12-11,5,0,Improved
+P0327,Male,1959-12-30,Fracture,2023-01-22,2023-01-27,4,0,Improved
+P0328,Female,1990-04-05,Hypertension,2023-05-27,2023-06-08,4,0,Unchanged
+P0329,Female,1969-10-14,Diabetes,2023-03-05,2023-03-06,4,0,Improved
+P0330,Female,1963-05-09,Fracture,2023-12-12,2023-12-13,4,1,Improved
+P0331,Male,1999-04-22,Hypertension,2023-01-30,2023-02-02,4,0,Improved
+P0332,Female,1967-06-18,Fracture,2023-10-21,2023-11-01,1,0,Unchanged
+P0333,Female,1961-10-27,Diabetes,2023-06-18,2023-06-29,5,0,Unchanged
+P0334,Female,1985-03-04,Heart Disease,2023-12-29,2024-01-06,3,0,Unchanged
+P0335,Female,1955-08-29,Asthma,2023-08-12,2023-08-19,4,1,Unchanged
+P0336,Female,1969-05-26,Diabetes,2023-04-14,2023-04-21,4,0,Improved
+P0337,Female,2006-11-17,Diabetes,2023-09-25,2023-10-08,3,1,Unchanged
+P0338,Female,2007-03-23,Hypertension,2023-11-09,2023-11-17,3,0,Deteriorated
+P0339,Male,1975-05-07,Hypertension,2023-05-23,2023-06-06,1,0,Deteriorated
+P0340,Male,1955-08-06,Hypertension,2023-10-16,2023-10-24,5,0,Recovered
+P0341,Male,1949-04-27,Heart Disease,2023-07-13,2023-07-14,2,0,Improved
+P0342,Male,1969-08-21,Hypertension,2023-05-02,2023-05-12,1,0,Recovered
+P0343,Female,1951-08-13,Diabetes,2023-11-18,2023-11-30,2,0,Unchanged
+P0344,Female,1992-07-30,Hypertension,2023-02-06,2023-02-19,1,0,Recovered
+P0345,Male,1989-10-13,Fracture,2023-09-08,2023-09-13,5,0,Improved
+P0346,Female,1947-05-15,Fracture,2023-01-26,2023-01-28,5,0,Improved
+P0347,Male,1965-05-13,Asthma,2023-03-14,2023-03-19,2,0,Deteriorated
+P0348,Male,1957-08-16,Fracture,2023-02-20,2023-03-02,4,0,Improved
+P0349,Female,1973-12-17,Asthma,2023-01-13,2023-01-19,4,1,Recovered
+P0350,Male,1966-08-01,Fracture,2023-05-28,2023-06-07,4,0,Improved
+P0351,Female,1966-10-07,Heart Disease,2023-07-15,2023-07-16,2,0,Improved
+P0352,Male,1957-02-13,Asthma,2023-01-08,2023-01-15,4,0,Recovered
+P0353,Female,1967-11-29,Fracture,2023-04-03,2023-04-08,3,1,Unchanged
+P0354,Male,1968-07-11,Asthma,2023-01-15,2023-01-20,3,0,Improved
+P0355,Male,1969-07-28,Asthma,2023-02-16,2023-02-28,5,0,Unchanged
+P0356,Male,1971-01-13,Fracture,2023-08-16,2023-08-18,2,0,Unchanged
+P0357,Male,1984-05-27,Diabetes,2023-02-05,2023-02-17,4,0,Improved
+P0358,Female,1972-01-10,Hypertension,2023-07-29,2023-08-06,3,0,Recovered
+P0359,Female,1996-01-09,Asthma,2023-06-01,2023-06-15,4,0,Unchanged
+P0360,Female,1954-10-19,Asthma,2023-03-03,2023-03-15,1,0,Deteriorated
+P0361,Male,1997-06-25,Asthma,2023-04-28,2023-05-12,4,0,Recovered
+P0362,Female,1962-08-19,Hypertension,2023-07-01,2023-07-13,5,0,Improved
+P0363,Male,2003-01-08,Asthma,2023-01-13,2023-01-24,1,0,Improved
+P0364,Female,1971-09-20,Asthma,2023-01-08,2023-01-09,2,1,Improved
+P0365,Male,1956-06-12,Fracture,2023-04-21,2023-04-23,4,0,Improved
+P0366,Male,1949-11-13,Diabetes,2023-06-17,2023-06-30,4,0,Improved
+P0367,Male,1948-12-24,Heart Disease,2023-12-17,2023-12-20,1,1,Deteriorated
+P0368,Male,1954-02-18,Heart Disease,2023-05-28,2023-06-08,5,0,Improved
+P0369,Female,1955-05-20,Hypertension,2023-08-23,2023-09-03,5,0,Recovered
+P0370,Female,1984-12-07,Heart Disease,2023-03-07,2023-03-20,5,0,Improved
+P0371,Female,1943-12-05,Diabetes,2023-03-24,2023-04-04,2,1,Deteriorated
+P0372,Male,1947-12-13,Heart Disease,2023-03-31,2023-04-11,1,0,Unchanged
+P0373,Female,1948-11-26,Diabetes,2023-04-12,2023-04-25,3,0,Unchanged
+P0374,Male,1957-08-27,Diabetes,2023-07-04,2023-07-13,2,0,Improved
+P0375,Male,1979-01-30,Fracture,2023-03-14,2023-03-22,5,0,Deteriorated
+P0376,Female,2009-05-31,Heart Disease,2023-06-28,2023-07-12,5,0,Recovered
+P0377,Female,1960-05-01,Asthma,2023-02-04,2023-02-15,4,0,Improved
+P0378,Female,1971-11-10,Hypertension,2023-01-12,2023-01-22,2,1,Improved
+P0379,Male,1975-12-28,Asthma,2023-04-19,2023-04-28,1,0,Improved
+P0380,Female,1977-06-27,Heart Disease,2023-05-20,2023-06-02,5,0,Improved
+P0381,Female,2009-09-16,Heart Disease,2023-12-27,2023-12-28,3,0,Recovered
+P0382,Male,1941-09-04,Asthma,2023-06-27,2023-06-28,4,0,Deteriorated
+P0383,Female,1951-06-18,Fracture,2023-08-12,2023-08-24,1,0,Deteriorated
+P0384,Male,2010-04-11,Heart Disease,2023-11-01,2023-11-14,1,1,Unchanged
+P0385,Female,2008-12-22,Fracture,2023-03-16,2023-03-17,1,0,Unchanged
+P0386,Female,1966-08-30,Hypertension,2023-05-20,2023-06-02,4,0,Unchanged
+P0387,Male,1996-02-08,Heart Disease,2023-04-04,2023-04-18,3,0,Unchanged
+P0388,Male,2000-07-24,Asthma,2023-02-04,2023-02-07,5,0,Unchanged
+P0389,Female,1968-08-26,Fracture,2023-07-22,2023-07-29,4,1,Unchanged
+P0390,Female,1996-07-12,Hypertension,2023-08-30,2023-09-12,4,0,Recovered
+P0391,Male,1964-12-20,Diabetes,2023-10-23,2023-11-01,3,0,Improved
+P0392,Female,1971-08-19,Hypertension,2023-01-11,2023-01-24,1,1,Recovered
+P0393,Female,1964-12-14,Fracture,2023-09-16,2023-09-20,5,0,Recovered
+P0394,Female,1940-04-09,Heart Disease,2023-03-17,2023-03-31,2,0,Recovered
+P0395,Female,2005-01-28,Heart Disease,2023-02-21,2023-03-01,1,0,Deteriorated
+P0396,Female,1946-06-12,Diabetes,2023-04-02,2023-04-06,1,0,Recovered
+P0397,Female,2001-01-12,Fracture,2023-05-12,2023-05-16,3,0,Deteriorated
+P0398,Male,1975-08-27,Heart Disease,2023-09-30,2023-10-06,2,0,Recovered
+P0399,Male,1944-05-27,Heart Disease,2023-11-16,2023-11-22,5,0,Recovered
+P0400,Female,1999-08-17,Fracture,2023-11-17,2023-12-01,5,0,Deteriorated
+P0401,Male,2009-10-21,Hypertension,2023-09-27,2023-10-02,5,0,Improved
+P0402,Female,1961-02-18,Asthma,2023-10-22,2023-10-31,3,1,Recovered
+P0403,Male,1971-06-25,Hypertension,2023-09-18,2023-09-29,2,0,Recovered
+P0404,Male,1978-03-09,Fracture,2023-01-04,2023-01-14,2,0,Unchanged
+P0405,Female,1985-08-20,Hypertension,2023-03-23,2023-03-26,1,0,Unchanged
+P0406,Female,1972-08-22,Heart Disease,2023-05-25,2023-06-08,4,0,Improved
+P0407,Female,1979-09-21,Fracture,2023-11-24,2023-12-06,2,0,Deteriorated
+P0408,Female,1984-01-13,Heart Disease,2023-06-02,2023-06-16,5,0,Recovered
+P0409,Female,1970-04-15,Heart Disease,2023-09-25,2023-10-04,5,1,Unchanged
+P0410,Male,1984-11-09,Heart Disease,2023-05-31,2023-06-06,4,0,Recovered
+P0411,Female,1998-01-03,Hypertension,2023-03-02,2023-03-10,4,0,Unchanged
+P0412,Female,1956-01-08,Asthma,2023-08-08,2023-08-14,1,1,Deteriorated
+P0413,Female,1978-10-27,Diabetes,2023-05-11,2023-05-16,1,0,Deteriorated
+P0414,Male,1969-03-30,Asthma,2023-03-14,2023-03-19,3,0,Unchanged
+P0415,Male,1992-12-20,Diabetes,2023-08-06,2023-08-14,5,0,Unchanged
+P0416,Female,2010-07-14,Fracture,2023-10-22,2023-10-31,3,0,Unchanged
+P0417,Female,1945-09-29,Asthma,2023-02-22,2023-03-03,5,0,Recovered
+P0418,Male,1979-11-30,Diabetes,2023-08-14,2023-08-20,3,1,Deteriorated
+P0419,Female,1953-08-06,Heart Disease,2023-12-11,2023-12-18,1,0,Improved
+P0420,Female,1945-08-30,Fracture,2023-11-16,2023-11-23,2,0,Unchanged
+P0421,Female,1958-09-10,Asthma,2023-01-05,2023-01-09,4,0,Unchanged
+P0422,Male,1975-05-15,Hypertension,2023-09-01,2023-09-13,5,0,Improved
+P0423,Male,1955-05-06,Fracture,2023-07-23,2023-07-30,1,0,Recovered
+P0424,Male,2002-09-05,Heart Disease,2023-06-15,2023-06-16,1,0,Unchanged
+P0425,Female,1973-12-06,Heart Disease,2023-09-21,2023-10-03,1,1,Improved
+P0426,Male,1961-07-23,Heart Disease,2023-05-31,2023-06-06,3,0,Recovered
+P0427,Male,2007-11-26,Diabetes,2023-05-05,2023-05-12,4,0,Recovered
+P0428,Male,2006-04-08,Asthma,2023-10-26,2023-11-05,1,0,Deteriorated
+P0429,Male,1944-12-12,Fracture,2023-07-07,2023-07-13,3,0,Deteriorated
+P0430,Male,1993-08-04,Asthma,2023-08-12,2023-08-17,1,0,Recovered
+P0431,Male,1980-09-28,Asthma,2023-11-07,2023-11-19,3,0,Recovered
+P0432,Female,1945-04-16,Diabetes,2023-03-24,2023-04-05,2,0,Recovered
+P0433,Female,1950-11-17,Diabetes,2023-10-07,2023-10-11,3,1,Unchanged
+P0434,Female,1940-09-23,Heart Disease,2023-03-25,2023-03-26,5,0,Unchanged
+P0435,Male,1970-11-09,Asthma,2023-10-09,2023-10-23,4,0,Recovered
+P0436,Male,1954-09-26,Diabetes,2023-11-10,2023-11-16,3,1,Improved
+P0437,Female,1964-02-10,Heart Disease,2023-07-17,2023-07-19,4,0,Recovered
+P0438,Female,1974-07-20,Fracture,2023-12-12,2023-12-18,3,1,Unchanged
+P0439,Female,1991-06-24,Diabetes,2023-10-29,2023-11-10,4,0,Improved
+P0440,Male,2003-07-27,Diabetes,2023-03-30,2023-04-01,2,0,Unchanged
+P0441,Female,1960-07-14,Fracture,2023-11-12,2023-11-14,5,0,Unchanged
+P0442,Male,1953-01-17,Fracture,2023-06-04,2023-06-13,5,0,Improved
+P0443,Female,2000-04-20,Diabetes,2023-05-01,2023-05-13,5,0,Recovered
+P0444,Male,1964-02-23,Fracture,2023-04-28,2023-05-06,3,0,Recovered
+P0445,Female,2009-12-08,Fracture,2023-05-02,2023-05-12,5,0,Unchanged
+P0446,Female,1952-04-12,Heart Disease,2023-10-14,2023-10-26,1,0,Improved
+P0447,Female,2003-05-26,Diabetes,2023-05-23,2023-05-27,1,0,Improved
+P0448,Male,2007-10-13,Fracture,2023-11-24,2023-11-30,5,0,Unchanged
+P0449,Female,1946-04-02,Heart Disease,2023-04-07,2023-04-10,5,1,Improved
+P0450,Male,1996-08-07,Diabetes,2023-07-09,2023-07-16,3,1,Unchanged
+P0451,Male,1971-01-04,Diabetes,2023-01-02,2023-01-15,5,0,Improved
+P0452,Female,1980-10-12,Diabetes,2023-04-29,2023-05-03,4,0,Recovered
+P0453,Male,2003-04-16,Fracture,2023-06-21,2023-07-05,2,1,Unchanged
+P0454,Female,1985-03-09,Fracture,2023-01-16,2023-01-25,3,0,Deteriorated
+P0455,Male,1978-08-07,Asthma,2023-11-21,2023-12-05,3,0,Improved
+P0456,Male,1980-03-12,Heart Disease,2023-07-22,2023-07-27,1,0,Improved
+P0457,Female,2008-09-21,Asthma,2023-03-27,2023-04-05,3,0,Deteriorated
+P0458,Male,1985-06-19,Heart Disease,2023-06-17,2023-06-18,3,1,Improved
+P0459,Male,1950-01-24,Hypertension,2023-04-17,2023-04-26,2,0,Unchanged
+P0460,Male,1996-09-19,Asthma,2023-04-05,2023-04-16,4,0,Improved
+P0461,Male,1968-04-28,Diabetes,2023-09-14,2023-09-19,2,0,Improved
+P0462,Male,1971-06-04,Hypertension,2023-03-23,2023-03-24,4,0,Improved
+P0463,Male,1972-04-04,Hypertension,2023-07-06,2023-07-12,1,1,Deteriorated
+P0464,Male,1975-04-27,Hypertension,2023-01-13,2023-01-19,2,1,Unchanged
+P0465,Male,1994-10-20,Heart Disease,2023-08-08,2023-08-11,2,1,Unchanged
+P0466,Male,1964-12-14,Fracture,2023-10-27,2023-11-01,2,0,Deteriorated
+P0467,Female,1960-01-22,Fracture,2023-10-06,2023-10-20,5,0,Deteriorated
+P0468,Male,1960-09-09,Hypertension,2023-10-15,2023-10-24,5,0,Recovered
+P0469,Female,1979-08-23,Fracture,2023-02-04,2023-02-13,2,1,Unchanged
+P0470,Female,1976-04-08,Diabetes,2023-10-26,2023-11-07,3,0,Unchanged
+P0471,Male,1972-03-02,Fracture,2023-11-21,2023-11-26,1,0,Unchanged
+P0472,Female,1970-12-10,Heart Disease,2023-11-15,2023-11-29,3,0,Recovered
+P0473,Female,1983-10-07,Hypertension,2023-10-20,2023-10-22,1,0,Recovered
+P0474,Female,1973-11-26,Asthma,2023-12-06,2023-12-15,1,0,Improved
+P0475,Male,1980-03-19,Diabetes,2023-06-22,2023-07-01,5,1,Deteriorated
+P0476,Male,1946-12-19,Asthma,2023-07-29,2023-08-07,1,0,Deteriorated
+P0477,Female,1979-10-27,Hypertension,2023-08-29,2023-09-10,2,1,Unchanged
+P0478,Female,1957-08-11,Hypertension,2023-07-18,2023-08-01,2,1,Improved
+P0479,Female,1940-03-03,Asthma,2023-09-20,2023-09-24,1,0,Improved
+P0480,Female,1984-05-01,Hypertension,2023-01-29,2023-02-02,5,0,Improved
+P0481,Male,1957-10-08,Hypertension,2023-03-19,2023-04-01,3,0,Unchanged
+P0482,Female,1945-07-16,Hypertension,2023-07-04,2023-07-07,5,1,Unchanged
+P0483,Male,1962-11-03,Fracture,2023-11-19,2023-12-02,5,0,Recovered
+P0484,Female,2008-05-22,Fracture,2023-01-10,2023-01-21,3,0,Deteriorated
+P0485,Male,1991-07-13,Heart Disease,2023-04-21,2023-05-01,2,0,Recovered
+P0486,Male,1947-10-23,Asthma,2023-06-14,2023-06-27,4,0,Improved
+P0487,Male,1985-03-16,Diabetes,2023-10-12,2023-10-18,5,0,Improved
+P0488,Male,1944-02-17,Asthma,2023-03-06,2023-03-14,2,0,Deteriorated
+P0489,Female,1967-05-08,Asthma,2023-05-22,2023-06-05,1,0,Unchanged
+P0490,Female,1983-01-03,Heart Disease,2023-08-24,2023-08-30,5,0,Recovered
+P0491,Female,1991-09-22,Fracture,2023-01-03,2023-01-17,5,0,Deteriorated
+P0492,Female,2004-11-26,Diabetes,2023-03-29,2023-04-07,1,0,Improved
+P0493,Female,1972-11-25,Diabetes,2023-08-11,2023-08-19,4,1,Improved
+P0494,Male,2010-04-26,Heart Disease,2023-01-04,2023-01-14,4,0,Deteriorated
+P0495,Female,1973-04-29,Hypertension,2023-04-22,2023-04-23,3,0,Recovered
+P0496,Male,1945-07-15,Asthma,2023-12-03,2023-12-06,1,0,Unchanged
+P0497,Female,2010-06-17,Asthma,2023-09-01,2023-09-09,2,1,Improved
+P0498,Male,1993-10-05,Diabetes,2023-03-24,2023-03-28,2,0,Unchanged
+P0499,Female,1941-08-15,Asthma,2023-11-03,2023-11-14,4,1,Improved
+P0500,Male,2002-10-23,Diabetes,2023-01-29,2023-02-11,3,0,Unchanged

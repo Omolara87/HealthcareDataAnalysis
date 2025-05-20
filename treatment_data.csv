@@ -1,0 +1,6 @@
+Condition,Treatment_Type,Effectiveness_Rate
+Diabetes,Insulin,0.64
+Hypertension,ACE Inhibitors,0.76
+Heart Disease,Beta Blockers,0.75
+Asthma,Inhalers,0.92
+Fracture,Casting,0.65
